@@ -1,0 +1,27 @@
+PODS:
+  - UdeskSDK (5.1.4):
+    - UdeskSDK/SDK (= 5.1.4)
+    - UdeskSDK/UIKit (= 5.1.4)
+  - UdeskSDK/SDK (5.1.4)
+  - UdeskSDK/UIKit (5.1.4):
+    - UdeskSDK/SDK
+
+DEPENDENCIES:
+  - "UdeskSDK (from `git@github.com:udesk/UdeskSDK-iOS.git`, branch `5.x`)"
+
+EXTERNAL SOURCES:
+  UdeskSDK:
+    :branch: 5.x
+    :git: "git@github.com:udesk/UdeskSDK-iOS.git"
+
+CHECKOUT OPTIONS:
+  UdeskSDK:
+    :commit: 0d4f5fc095abd303bb7bf12c869df5e50828727e
+    :git: "git@github.com:udesk/UdeskSDK-iOS.git"
+
+SPEC CHECKSUMS:
+  UdeskSDK: 74b9e61f121a424cde6bb3357e65c6831fbc3258
+
+PODFILE CHECKSUM: 7c6114154cb3956785b3207ed999b59f9995320a
+
+COCOAPODS: 1.8.4
